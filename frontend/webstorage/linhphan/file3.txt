@@ -1,6 +1,0 @@
-CIS 5050: Software Systems (Spring 2024)
-Overview
-This course provides an introduction to fundamental concepts of distributed systems, and the design principles for building large-scale computational systems.
-We will study some of the key building blocks – such as synchronization primitives, group communication protocols, and replication techniques – that form the foundation of modern distributed systems, such as cloud-computing platforms or the Internet. We will also look at some real-world examples of distributed systems, such as GFS, MapReduce, Spark, and Dynamo, and we will gain some hands-on experience with building and running distributed systems.
-
-CIS 5050 is one of the core courses in the MSE program, as well as an option for the WPE-I requirement for PhD students.
