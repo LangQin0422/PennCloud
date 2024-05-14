@@ -1,0 +1,61 @@
+/* Styling for form elements */
+label {
+  margin-right: 10px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #5c67f2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  min-width: 84px;
+}
+
+button:hover {
+  background-color: #4a54e1;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  label,
+  input,
+  select,
+  button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  button {
+    width: auto;
+  }
+}
+
+.footbar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting {
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,104 @@
+/* Reset padding and margin to ensure consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+thead {
+  background: #007bff;
+  color: #ffffff;
+}
+
+th {
+  height: 50px;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e1f5fe;
+}
+
+td {
+  font-size: 16px;
+}
+
+/* Custom styles for Load Bar */
+.load-bar {
+  width: 100px;
+  background-color: #ddd;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.load-fill {
+  height: 20px;
+  background-color: #337ab7;
+}
+
+.load-text {
+  padding-left: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Define CSS classes for the button */
+.kill-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 72px;
+}
+
+/* Kill button style */
+.kill-button.kill {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+}
+
+/* Start button style */
+.kill-button.start {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+}
+
+/* Hover effect */
+.kill-button:hover {
+  opacity: 0.8;
+}
