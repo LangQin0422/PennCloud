@@ -1,0 +1,9 @@
+version: '3.10'
+
+services:
+  myapp:
+    image: langqin/kvs:latest
+    ports:
+      - "40050:40050"
+      - "50050-50060:50050-50060"
+    restart: unless-stopped
